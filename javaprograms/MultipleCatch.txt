@@ -1,0 +1,29 @@
+import java.util.*;
+class MultipleCatch
+{
+public static void main(String args[])
+{
+int a=30,b,result,arr[]={2,3,0};
+Scanner sc=new Scanner(System.in);
+try
+{
+System.out.println("enter the number");
+b=sc.nextInt();
+result=a/arr[b];
+system.out.println("result:" +result);
+}
+catch(Arithmetic Exception ae)
+{
+System.out.println("Denominator should not be zero:" +ae);
+}
+catch(Array Index out of bounds Exception ae1
+{
+System.out.println("Index value should not be out of bonds");
+}
+catch(Exception e)
+{
+System.out.println("Exception arised:" +e);
+}
+System.out.println("after the code:" +result);
+}
+}
